@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9c60bf23.chunk.css",
+    "main.js": "/static/js/main.c9940406.chunk.js",
+    "main.js.map": "/static/js/main.c9940406.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bc587a19.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bc587a19.js.map",
+    "static/js/2.b7d3e23a.chunk.js": "/static/js/2.b7d3e23a.chunk.js",
+    "static/js/2.b7d3e23a.chunk.js.map": "/static/js/2.b7d3e23a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9c60bf23.chunk.css.map": "/static/css/main.9c60bf23.chunk.css.map",
+    "static/js/2.b7d3e23a.chunk.js.LICENSE.txt": "/static/js/2.b7d3e23a.chunk.js.LICENSE.txt",
+    "static/media/Navigation.css": "/static/media/Agustina.320d237b.otf",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/jera.038eba01.svg": "/static/media/jera.038eba01.svg",
+    "static/media/nucleo.css": "/static/media/nucleo-icons.d6a66724.ttf",
+    "static/media/quintoandar.a0c22c9c.svg": "/static/media/quintoandar.a0c22c9c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc587a19.js",
+    "static/js/2.b7d3e23a.chunk.js",
+    "static/css/main.9c60bf23.chunk.css",
+    "static/js/main.c9940406.chunk.js"
+  ]
+}
