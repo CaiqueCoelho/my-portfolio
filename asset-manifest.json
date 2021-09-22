@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c60bf23.chunk.css",
-    "main.js": "/static/js/main.c9940406.chunk.js",
-    "main.js.map": "/static/js/main.c9940406.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bc587a19.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bc587a19.js.map",
-    "static/js/2.b7d3e23a.chunk.js": "/static/js/2.b7d3e23a.chunk.js",
-    "static/js/2.b7d3e23a.chunk.js.map": "/static/js/2.b7d3e23a.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.9c60bf23.chunk.css.map": "/static/css/main.9c60bf23.chunk.css.map",
-    "static/js/2.b7d3e23a.chunk.js.LICENSE.txt": "/static/js/2.b7d3e23a.chunk.js.LICENSE.txt",
-    "static/media/Navigation.css": "/static/media/Agustina.320d237b.otf",
-    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
-    "static/media/jera.038eba01.svg": "/static/media/jera.038eba01.svg",
-    "static/media/nucleo.css": "/static/media/nucleo-icons.d6a66724.ttf",
-    "static/media/quintoandar.a0c22c9c.svg": "/static/media/quintoandar.a0c22c9c.svg"
+    "main.css": "/my-portfolio/static/css/main.773de3a6.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.4f688bd9.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.4f688bd9.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.69fb080f.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.69fb080f.js.map",
+    "static/js/2.b705a884.chunk.js": "/my-portfolio/static/js/2.b705a884.chunk.js",
+    "static/js/2.b705a884.chunk.js.map": "/my-portfolio/static/js/2.b705a884.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.773de3a6.chunk.css.map": "/my-portfolio/static/css/main.773de3a6.chunk.css.map",
+    "static/js/2.b705a884.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.b705a884.chunk.js.LICENSE.txt",
+    "static/media/Navigation.css": "/my-portfolio/static/media/Agustina.320d237b.otf",
+    "static/media/font-awesome.min.css": "/my-portfolio/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/jera.038eba01.svg": "/my-portfolio/static/media/jera.038eba01.svg",
+    "static/media/nucleo.css": "/my-portfolio/static/media/nucleo-icons.d6a66724.ttf",
+    "static/media/quintoandar.a0c22c9c.svg": "/my-portfolio/static/media/quintoandar.a0c22c9c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc587a19.js",
-    "static/js/2.b7d3e23a.chunk.js",
-    "static/css/main.9c60bf23.chunk.css",
-    "static/js/main.c9940406.chunk.js"
+    "static/js/runtime-main.69fb080f.js",
+    "static/js/2.b705a884.chunk.js",
+    "static/css/main.773de3a6.chunk.css",
+    "static/js/main.4f688bd9.chunk.js"
   ]
 }
