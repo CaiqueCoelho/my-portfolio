@@ -10,13 +10,14 @@ import Experience from "./containers/Experience";
 import Projects from "./containers/Projects";
 import GithubProfile from "./containers/GithubProfile";
 import Awards from "./containers/Awards";
+import { BrowserRouter } from 'react-router-dom';
 
 import "./assets/vendor/nucleo/css/nucleo.css";
 import "./assets/vendor/font-awesome/css/font-awesome.min.css";
 import "./assets/css/argon-design-system-react.css";
 
 ReactDOM.render(
-	<>
+	<BrowserRouter basename={process.env.PUBLIC_URL}>
 		<Navigation />
 		<Greetings />
 		<Skills />
@@ -26,6 +27,6 @@ ReactDOM.render(
 		<Education />
 		<Awards />
 		<GithubProfile />
-	</>,
+	</BrowserRouter>,
 	document.getElementById("root")
 );
