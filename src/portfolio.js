@@ -112,8 +112,8 @@ export const SkillBars = [
 		proficiency: "I feel comfortable working with", //Insert relative proficiency in percentage
 	},
 	{
-		Stack: "Java, Selenium, Pytorch, Spring, React, Flask",
-		proficiency: "I have experience with",
+		Stack: "Java, Selenium, Pytorch, Spring, React, Flask, Kotlin",
+		proficiency: "I also have experience with",
 	},
 ];
 
@@ -122,31 +122,38 @@ export const educationInfo = [
 		schoolName: "Universidade Federal de Mato Grosso do Sul",
 		subHeader: "Bachelor's degree, Computer Science",
 		duration: "September 2013 - April 2018",
-		desc: "course conclusion article in the field of artificial intelligence, developing a model to estimate the effort in the development of new features in software apps/sites",
+		desc: "Course conclusion article in the field of artificial intelligence, developing a model to estimate the effort in the development of new features in software apps/sites",
 		descBullets: [
 			"Internship at the Information Technology Center at UFMS",
 			"Volunteer work in the world's largest youth organization for leadership development - AIESEC",
 		],
     github: "https://github.com/CaiqueCoelho/tcc",
 		link: "https://drive.google.com/file/d/1qTlSYjZRYW8h3-lc3S26bQy1TDgYS_TH/view?usp=sharing",
+    type: "Article"
 	},
 	{
 		schoolName: "Duke University",
 		subHeader: "Introduction to Machine Learning",
 		duration: "January 2021 - May 2021",
 		desc: "Introduction course to machine learning and pytorch with emphasis on NLP",
-	},
+    link: "https://www.coursera.org/account/accomplishments/verify/3VY7HV9QGJN8?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+    type: "Certified"
+  },
 	{
 		schoolName: "Instituto Federal de Educação, Ciência e Tecnologia de Alagoas",
 		subHeader: "Training Course in Artificial Intelligence",
 		duration: "June 2021 - July 2021",
 		desc: "Practical course for specialization in machine learning and deep learning using sklearn and tensorflow",
+    link: "https://drive.google.com/file/d/1fPhkkJWyEdutDrANGm8uT-wG4WjSyGJI/view",
+    type: "Certified"
 	},
 	{
 		schoolName: "Huawei",
 		subHeader: "Artificial Intelligence Certified",
 		duration: "June 2021 - July 2021",
 		desc: "Theoretical and practical course for specialization in machine learning and deep learning with Huawei tools",
+    link: "https://drive.google.com/file/d/1fPhkkJWyEdutDrANGm8uT-wG4WjSyGJI/view",
+    type: "Certified"
 	},
 ];
 
@@ -187,7 +194,7 @@ export const experience = [
 		descBullets: [
       "Identify the target test items to be evaluated by the test effort",
       "Assist in brainstorming for new features",
-      "Contribute to creation and elaboration of user stories",,
+      "Assists in the creation and development of user stories",
       "Assist in prioritizing backlog tasks",
       "Define the appropriate tests required and any associated test data",
       "Collect and manage test data",
@@ -249,5 +256,10 @@ export const awards = [
 		name: "Facebook Testathon 2019 - São Paulo, Brazil",
 		award:
 			"Best product insight!",
+	},
+  {
+		name: "Amazon Certified Alexa Skill Builder",
+		award:
+			"2x Alexa Skill Builder Incentive Certificate Winner!",
 	},
 ];

@@ -7,7 +7,37 @@ import { socialLinks } from "../portfolio";
 const SocialLinks = () => {
     return ( 
         <div className="btn-wrapper text-lg">
-            <Button
+                <Button
+                  className="btn-icon-only rounded-circle ml-1"
+                  color="twitter"
+                  href={socialLinks.linkedin}
+                  target="_blank"
+                >
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-linkedin" />
+                  </span>
+                </Button>
+                <Button
+                  className="btn-icon-only rounded-circle ml-1"
+                  color="medium"
+                  href={socialLinks.medium}
+                  target="_blank"
+                >
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-medium" />
+                  </span>
+                </Button>
+                <Button
+                  className="btn-icon-only rounded-circle ml-1"
+                  color="github"
+                  href={socialLinks.github}
+                  target="_blank"
+                >
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-github" />
+                  </span>
+                </Button>
+                <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
                   href={socialLinks.twitter}
@@ -15,16 +45,6 @@ const SocialLinks = () => {
                 >
                   <span className="btn-inner--icon">
                     <i className="fa fa-twitter" />
-                  </span>
-                </Button>
-                <Button
-                  className="btn-icon-only rounded-circle ml-1"
-                  color="facebook"
-                  href={socialLinks.facebook}
-                  target="_blank"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-facebook-square" />
                   </span>
                 </Button>
                 <Button
@@ -39,22 +59,12 @@ const SocialLinks = () => {
                 </Button>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
-                  color="github"
-                  href={socialLinks.github}
+                  color="facebook"
+                  href={socialLinks.facebook}
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-github" />
-                  </span>
-                </Button>
-                <Button
-                  className="btn-icon-only rounded-circle ml-1"
-                  color="twitter"
-                  href={socialLinks.linkedin}
-                  target="_blank"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-linkedin" />
+                    <i className="fa fa-facebook-square" />
                   </span>
                 </Button>
         </div>

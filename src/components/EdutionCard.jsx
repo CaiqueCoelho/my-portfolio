@@ -48,7 +48,7 @@ const EdutionCard = ({ education }) => {
 											<i className="fa fa-arrow-right mr-2" />
 										</span>
 										<span className="nav-link-inner--text ml-1">
-											DEMO
+											Link {education.type}
 										</span>
 									</Button>
 								) : null}
