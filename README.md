@@ -1,6 +1,6 @@
 ## My Portfolio
 
-<img src="https://github.com/CaiqueCoelho/my-portfolio/blob/main/my-portfolio-qr-code.png" width="30px">
+<img src="https://github.com/CaiqueCoelho/my-portfolio/blob/main/my-portfolio-qr-code.png" width="300px">
 
 ▲
 👤 **Caíque Coelho**
