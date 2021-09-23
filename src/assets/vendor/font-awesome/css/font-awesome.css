@@ -20,6 +20,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 /* makes the font 33% larger relative to the icon container */
+.inner-container {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.centered-content {
+  display: inline-block;
+  text-align: left;
+}
+
+.outer-container {
+  display: table;
+}
+
+.top-padding {
+  margin-top: 0.5em;
+}
+
 .fa-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
@@ -30,6 +49,7 @@
 }
 .fa-3x {
   font-size: 3em;
+  padding-top: 1.5em;
 }
 .fa-4x {
   font-size: 4em;

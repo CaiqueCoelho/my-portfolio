@@ -13,18 +13,22 @@ const SocialLinks = () => {
                   href={socialLinks.linkedin}
                   target="_blank"
                 >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-linkedin" />
-                  </span>
+                  <div className='outer-container'>
+                    <span className="btn-inner--icon inner-container">
+                      <div className='inner-container'> 
+                        <i className="top-padding fa fa-3x top-padding fa-linkedin" />
+                      </div>
+                    </span>
+                  </div>
                 </Button>
                 <Button
-                  className="btn-icon-only rounded-circle ml-1"
+                  className="btn-icon-only rounded-circle ml-1 outer-container"
                   color="medium"
                   href={socialLinks.medium}
                   target="_blank"
                 >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-medium" />
+                  <span className="btn-inner--icon inner-container">
+                    <i className="top-padding fa fa-3x fa-medium" />
                   </span>
                 </Button>
                 <Button
@@ -34,7 +38,7 @@ const SocialLinks = () => {
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-github" />
+                    <i className="fa fa-3x fa-github" />
                   </span>
                 </Button>
                 <Button
@@ -44,7 +48,7 @@ const SocialLinks = () => {
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-twitter" />
+                    <i className="fa fa-3x fa-twitter" />
                   </span>
                 </Button>
                 <Button
@@ -54,7 +58,7 @@ const SocialLinks = () => {
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-instagram" />
+                    <i className="fa fa-3x fa-instagram" />
                   </span>
                 </Button>
                 <Button
@@ -64,7 +68,7 @@ const SocialLinks = () => {
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-facebook-square" />
+                    <i className="fa fa-3x fa-facebook-square" />
                   </span>
                 </Button>
         </div>

@@ -15905,7 +15905,7 @@ a.text-lighter:focus {
 }
 
 .btn-icon .btn-inner--icon img {
-	width: 20px;
+	width: 40px;
 }
 
 .btn-icon .btn-inner--text:not(:first-child) {
@@ -15917,8 +15917,8 @@ a.text-lighter:focus {
 }
 
 .btn-icon-only {
-	width: 2.375rem;
-	height: 2.375rem;
+	width: 3.675rem;
+	height: 3.675rem;
 	padding: 0;
 }
 
