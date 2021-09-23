@@ -49,6 +49,7 @@ const Greetings = () => {
                         <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
+                          target="_blank"
                           href={greetings.resumeLink}
                         >
                           <span className="btn-inner--icon mr-1">

@@ -7,7 +7,7 @@ export const greetings = {
 	name: "Caíque Coelho",
 	title: "Hi all, I'm Caíque",
 	description: "Nice to meet you! I'm Caíque, a passionate developer, currently working as Quality Software at QuintoAndar, but also an App Developer on weekends and a Data Scientist on free time",
-	resumeLink: "https://github.com/CaiqueCoelho/my-portfolio/blob/main/resume.pdf",
+	resumeLink: "https://drive.google.com/file/d/1IBRSOQzzDqXBAYCDNPf2lDpwcuRaYlOp/view?usp=sharing",
 };
 
 export const openSource = {

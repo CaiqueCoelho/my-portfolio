@@ -5,7 +5,7 @@
 ▲
 👤 **Caíque Coelho**
 
-* [Resume](https://github.com/CaiqueCoelho/my-portfolio/blob/main/resume.pdf)
+* [Resume](https://drive.google.com/file/d/1IBRSOQzzDqXBAYCDNPf2lDpwcuRaYlOp/view?usp=sharing)
 * [Website](https://caiquecoelho.github.io/my-portfolio/)
 * Twitter: [@caiqueocoelho](https://twitter.com/caiqueocoelho)
 * Github: [@CaiqueCoelho](https://github.com/CaiqueCoelho)
