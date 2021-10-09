@@ -18,7 +18,7 @@ export const contact = {};
 
 export const socialLinks = {
 	linkedin: "https://linkedin.com/in/caiquecoelho",
-	github: "hhttps://github.com/CaiqueCoelho",
+	github: "https://github.com/CaiqueCoelho",
 	twitter: "https://twitter.com/caiqueocoelho",
 	medium: "https://caiquecoelho.medium.com/",
 	instagram: "https://www.instagram.com/caiqueocoelho/",
@@ -163,14 +163,15 @@ export const experience = [
 		company: "QuintoAndar",
 		companylogo: quintoandar,
 		date: "November 2018 – Present",
-		desc: "Playing the role of QA Tribe Manager helping all teams inside the tribe to raise in code, ensuring a culture of quality from the beginning of development through the study of requirements and risks in Story Mapping and Refining rituals, developing the automation pipeline with unit testing, integration, end to end and regression, and finally ensuring the monitoring of production services",
+		desc: "Playing the role of QA Tribe Manager empowering and educating all people in the tribe to raise quality in code and process, ensuring a distributed culture of responsibility for quality from the beginning of development through the study of requirements and risks to the production environment with monitoring, continuous deployment and delivery",
 		descBullets: [
 			"Create test plans and test cases in various levels of criticality",
 			"Carefully perform humanized tests to guarantee our apps meets high UI and usability standards",
       "Perform exploratory testing to find issues before product development and before product release.",
       "Take care of our bug tracking: support team in reproducing failures, debugging, prioritizing bugs and technical debts",
       "Engage in automation: either by directly implementing tests or helping defining which flows should be automated",
-      "Developing and enabling other QAs and developers to write end to end and integration tests using cypress"
+      "Developing and enabling other QAs and developers to write end to end and integration tests using cypress",
+      "Defining metrics and monitoring the health and quality of services in production, ensuring performance, safety, and scalability"
 		],
 	},
 	{
