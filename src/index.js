@@ -16,6 +16,10 @@ import "./assets/vendor/nucleo/css/nucleo.css";
 import "./assets/vendor/font-awesome/css/font-awesome.min.css";
 import "./assets/css/argon-design-system-react.css";
 
+import { initializeFirebase } from './firebase';
+
+initializeFirebase();
+
 ReactDOM.render(
 	<BrowserRouter basename={process.env.PUBLIC_URL}>
 		<Navigation />
