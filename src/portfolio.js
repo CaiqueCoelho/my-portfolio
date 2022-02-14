@@ -2,11 +2,12 @@ import emoji from "react-easy-emoji";
 
 import quintoandar from "./assets/img/icons/common/quintoandar.svg";
 import jera from "./assets/img/icons/common/jera.svg";
+import zedelivery from "./assets/img/icons/common/zedelivery.svg";
 
 export const greetings = {
 	name: "Caíque Coelho",
 	title: "Hi all, I'm Caíque",
-	description: "Nice to meet you! I'm Caíque, a passionate developer, currently working as Quality Software at QuintoAndar, but also an App Developer on weekends and a Data Scientist on free time",
+	description: "Nice to meet you! I'm Caíque, a passionate developer, currently working as Quality Software at Zé Delivery, but also an App Developer on weekends and a Data Scientist on free time",
 	resumeLink: "https://drive.google.com/file/d/1IBRSOQzzDqXBAYCDNPf2lDpwcuRaYlOp/view?usp=sharing",
 };
 
@@ -159,19 +160,31 @@ export const educationInfo = [
 
 export const experience = [
 	{
+		role: "Quality Software Engineer",
+		company: "Zé Delivery",
+		companylogo: zedelivery,
+		date: "November 2021 – November 2022",
+		desc: "Identifying processes and improvement points in the quality pipeline from requirements gathering to the implementation of regression tests, ensuring process maturity and reliability",
+		descBullets: [
+			"Ensure the good distribution of tests among the test pyramid",
+			"Reduce the number of flaky tests and increase the reliability of end-to-end tests",
+			"Ensuring good practices in the development of new tests",
+		],
+	},
+	{
 		role: "Quality Software",
 		company: "QuintoAndar",
 		companylogo: quintoandar,
-		date: "November 2018 – Present",
-		desc: "Playing the role of QA Tribe Manager empowering and educating all people in the tribe to raise quality in code and process, ensuring a distributed culture of responsibility for quality from the beginning of development through the study of requirements and risks to the production environment with monitoring, continuous deployment and delivery",
+		date: "November 2018 – November 2021",
+		desc: "Playing the role of QA Tribe Manager empowering and educating all people in the tribe to raise quality in code and process:",
 		descBullets: [
 			"Create test plans and test cases in various levels of criticality",
 			"Carefully perform humanized tests to guarantee our apps meets high UI and usability standards",
-      "Perform exploratory testing to find issues before product development and before product release.",
-      "Take care of our bug tracking: support team in reproducing failures, debugging, prioritizing bugs and technical debts",
-      "Engage in automation: either by directly implementing tests or helping defining which flows should be automated",
-      "Developing and enabling other QAs and developers to write end to end and integration tests using cypress",
-      "Defining metrics and monitoring the health and quality of services in production, ensuring performance, safety, and scalability"
+			"Perform exploratory testing to find issues before product development and before product release.",
+			"Take care of our bug tracking: support team in reproducing failures, debugging, prioritizing bugs and technical debts",
+			"Engage in automation: either by directly implementing tests or helping defining which flows should be automated",
+			"Developing and enabling other QAs and developers to write end to end and integration tests using cypress",
+			"Defining metrics and monitoring the health and quality of services in production, ensuring performance, safety, and scalability"
 		],
 	},
 	{

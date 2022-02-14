@@ -12,3 +12,18 @@
 * LinkedIn: [@caiquecoelho](https://linkedin.com/in/caiquecoelho)
 * Medium: [@caiquecoelho](https://caiquecoelho.medium.com/)
 * Instagram: [@caiqueocoelho](https://www.instagram.com/caiqueocoelho/)
+
+### How to run
+
+- npm i
+- npm run start
+
+### Troubleshooting
+
+- If you are geting any problem with node version or node-gyp problem you can run:
+    ```sh
+    source ~/.nvm/nvm.sh
+    nvm use
+    npm i
+    npm run start
+    ```
