@@ -224,7 +224,7 @@ export const projects = [
 	{
 		name: "App Teste Eneagrama",
 		desc: "Android app for personality test with over 100,000 downloads",
-		link: "https://play.google.com/store/apps/details?id=caiquecoelho.com.testeeneagrama&hl=pt_BR&gl=US",
+		link: "https://play.google.com/store/apps/details?id=caiquecoelho.com.testeeneagrama&hl=pt_BR",
 	},
 	{
 		name: "Retrospectiva Twitter",
