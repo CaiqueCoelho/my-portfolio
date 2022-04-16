@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.773de3a6.chunk.css",
+    "main.css": "/my-portfolio/static/css/main.01346de3.chunk.css",
     "main.js": "/my-portfolio/static/js/main.d7534ed4.chunk.js",
     "main.js.map": "/my-portfolio/static/js/main.d7534ed4.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.69fb080f.js",
@@ -8,7 +8,7 @@
     "static/js/2.0640709c.chunk.js": "/my-portfolio/static/js/2.0640709c.chunk.js",
     "static/js/2.0640709c.chunk.js.map": "/my-portfolio/static/js/2.0640709c.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.773de3a6.chunk.css.map": "/my-portfolio/static/css/main.773de3a6.chunk.css.map",
+    "static/css/main.01346de3.chunk.css.map": "/my-portfolio/static/css/main.01346de3.chunk.css.map",
     "static/js/2.0640709c.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.0640709c.chunk.js.LICENSE.txt",
     "static/media/Navigation.css": "/my-portfolio/static/media/Agustina.320d237b.otf",
     "static/media/font-awesome.min.css": "/my-portfolio/static/media/fontawesome-webfont.f691f37e.woff",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.69fb080f.js",
     "static/js/2.0640709c.chunk.js",
-    "static/css/main.773de3a6.chunk.css",
+    "static/css/main.01346de3.chunk.css",
     "static/js/main.d7534ed4.chunk.js"
   ]
 }
