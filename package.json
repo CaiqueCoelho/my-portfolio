@@ -39,7 +39,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build && firebase deploy"
+    "deploy": "gh-pages -d build && firebase deploy",
+    "test:open": "npx cypress open",
+    "test:run": "npx cypress run"
   },
   "browserslist": {
     "production": [

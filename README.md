@@ -18,6 +18,10 @@
 - npm i
 - npm run start
 
+### How to run e2e tests
+
+- npm run test:open
+
 ### Troubleshooting
 
 - If you are geting any problem with node version or node-gyp problem you can run:
