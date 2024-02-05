@@ -27,3 +27,8 @@
     npm i
     npm run start
     ```
+
+- If you are getting an error like `ERR_OSSL_EVP_UNSUPPORTED` use:
+    ```sh
+    export NODE_OPTIONS=--openssl-legacy-provider
+    ```
