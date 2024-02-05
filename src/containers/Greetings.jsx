@@ -24,7 +24,7 @@ const Greetings = () => {
     <Fade top duration={1000} distance="40px">
         <main ref="main">
           <div className="position-relative">
-            <section className="section section-lg section-shaped pb-250">
+            <section className="section section-lg section-shaped">
               <div className="shape shape-style-1 bg-gradient-info">
                 <span />
                 <span />
