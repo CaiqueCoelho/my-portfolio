@@ -10,7 +10,7 @@ export const greetings = {
   name: 'Caique Coelho',
   title: "Hi all, I'm Caíque",
   description:
-    "Staff-level SDET with 9+ years building test automation and quality platforms. I build the systems that prevent bugs, not just the tests that find them: automation frameworks in Playwright, Cypress and TypeScript, CI/CD quality gates, and AI-native tooling — LLM agents on Claude and AWS Bedrock that generate test cases, decide which tests a change actually needs, and run agentic exploratory testing. Cypress core contributor and Cy.Pronauts ambassador.",
+    "Staff-level SDET with 9+ years building test automation and quality platforms. I build the systems that prevent bugs, not just the tests that find them: automation frameworks in Playwright, Cypress and TypeScript, CI/CD quality gates, and AI-native tooling using LLM agents on Claude and AWS Bedrock that generate test cases, decide which tests a change actually needs, and run agentic exploratory testing. Cypress core contributor and Cy.Pronauts ambassador.",
   resumeLink:
     'https://drive.google.com/file/d/1sJcAnby6m8qCLBCWGjGAsxIYzVszhgHC/view?usp=sharing',
 };
