@@ -1,9 +1,10 @@
+"use client";
 import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
 import code from '../assets/lottie/coding.json';
 
 
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 
 import {
   Button,
@@ -12,8 +13,8 @@ import {
   Col
 } from "reactstrap";
 
-import GreetingLottie from "../components/DisplayLottie";
-import SocialLinks from "components/SocialLinks";
+// Removed DisplayLottie
+import SocialLinks from "../components/SocialLinks";
 
 const Greetings = () => {
   useEffect(() => {
@@ -21,8 +22,8 @@ const Greetings = () => {
     document.scrollingElement.scrollTop = 0;
   })
   return ( 
-    <Fade top duration={1000} distance="40px">
-        <main ref="main">
+    <Fade direction="down" duration={1000} distance="40px">
+        <main>
           <div className="position-relative">
             <section className="section section-lg section-shaped">
               <div className="shape shape-style-1 bg-gradient-info">
@@ -61,8 +62,20 @@ const Greetings = () => {
                         </Button>
                       </div>
                     </Col>
-                    <Col lg="6">
-                      <GreetingLottie animationData={code}/>
+                    <Col lg="6" className="text-center position-relative">
+                      {/* Floating Emojis */}
+                      <span className="floating-emoji e1" role="img" aria-label="code">💻</span>
+                      <span className="floating-emoji e2" role="img" aria-label="rocket">🚀</span>
+                      <span className="floating-emoji e3" role="img" aria-label="coffee">☕</span>
+                      <span className="floating-emoji e4" role="img" aria-label="bug">🐛</span>
+                      
+                      {/* GitHub Profile Picture */}
+                      <img 
+                        src="https://avatars.githubusercontent.com/u/29831309?v=4" 
+                        alt="Caíque Coelho" 
+                        className="rounded-circle floating-avatar img-fluid"
+                        style={{ width: '300px', height: '300px', objectFit: 'cover' }}
+                      />
                     </Col>
                   </Row>
                 </div>
@@ -90,5 +103,4 @@ const Greetings = () => {
         </Fade>
    );
 }
- 
 export default Greetings;

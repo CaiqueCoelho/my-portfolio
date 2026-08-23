@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { experience } from "../portfolio";
 import {
@@ -5,7 +6,7 @@ import {
     Row,
 } from "reactstrap";
 
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 
 import ExperienceCard from "../components/ExperienceCard";
 
@@ -13,7 +14,7 @@ const Experience = () => {
     return ( 
         <section>
             <Container>
-              <Fade left duration={1000} distance="40px">
+              <Fade direction="left" duration={1000} distance="40px">
               <div className="d-flex p-4">
                     <div>
                         <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">

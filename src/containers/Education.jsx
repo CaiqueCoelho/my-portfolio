@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import EdutionCard from "../components/EdutionCard";
 import { educationInfo } from "../portfolio";

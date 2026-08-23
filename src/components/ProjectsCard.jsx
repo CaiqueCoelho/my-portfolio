@@ -1,13 +1,13 @@
+"use client";
 import React from "react";
 
 import { Card, CardBody, Col, Button } from "reactstrap";
 
-import { Fade } from "react-reveal";
+import { Fade } from 'react-awesome-reveal';
 
 const ProjectsCard = ({ data }) => {
 	return (
 		<Col lg="6">
-			<Fade bottom duration={1000} distance="40px">
 				<Card className="shadow-lg--hover shadow mt-4">
 					<CardBody>
 						<div className="d-flex px-3">
@@ -45,7 +45,6 @@ const ProjectsCard = ({ data }) => {
 						</div>
 					</CardBody>
 				</Card>
-			</Fade>
 		</Col>
 	);
 };

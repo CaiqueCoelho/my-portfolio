@@ -1,8 +1,8 @@
+"use client";
 import React, {Fragment} from 'react';
 
-import { Fade } from 'react-reveal';
-import DisplayLottie from '../components/DisplayLottie'
-import caique from '../assets/lottie/caique.json';
+import { Fade } from 'react-awesome-reveal';
+// Removed DisplayLottie
 
 import {
     Container,
@@ -15,13 +15,18 @@ import { skillsSection } from "../portfolio";
 
 const Skills = () => {
     return ( 
-        <Fade left duration={1000} distance="40px">
+        <Fade direction="left" duration={1000} distance="40px">
             <Container className="text-center my-5">
             <h1 className="h1">{skillsSection.title}</h1>
             <p className="lead">{skillsSection.subTitle}</p>
             <Row>
                 <Col lg="6">
-                    <DisplayLottie animationData={caique} />
+                    <div className="coding-scene-wrapper">
+                        <span style={{ fontSize: '10rem' }} role="img" aria-label="coding">👨‍💻</span>
+                        <span className="floating-emoji" style={{ top: '20%', right: '20%', animationDelay: '1s', fontSize: '3rem' }}>☁️</span>
+                        <span className="floating-emoji" style={{ top: '60%', left: '10%', animationDelay: '2s', fontSize: '2rem' }}>⚙️</span>
+                        <span className="floating-emoji" style={{ top: '10%', left: '30%', animationDelay: '3s', fontSize: '2rem' }}>💡</span>
+                    </div>
                 </Col>
                 <Col lg="6">
                     <div className="d-flex justify-content-center flex-wrap mb-5">

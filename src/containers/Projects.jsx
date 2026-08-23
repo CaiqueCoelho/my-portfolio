@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 
 import { projects } from "../portfolio";
@@ -6,13 +7,13 @@ import {
     Row,
 } from "reactstrap";
 import ProjectsCard from "../components/ProjectsCard";
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 
 const Projects = () => {
     return ( 
         <section>
             <Container>
-              <Fade bottom duration={1000} distance="40px">
+              <Fade direction="up" duration={500} distance="40px" triggerOnce>
               <div className="d-flex p-4">
                     <div>
                         <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">

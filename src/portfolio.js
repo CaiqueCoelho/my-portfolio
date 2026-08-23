@@ -10,7 +10,7 @@ export const greetings = {
   name: 'Caique Coelho',
   title: "Hi all, I'm Caíque",
   description:
-    "Nice to meet you! I'm Caíque, a passionate developer, currently working as a QA Specialist at Raidiam, but I'm also an App Developer on weekends, and a Data Scientist on free time",
+    "Staff-level SDET with 9+ years building test automation and quality platforms. I build the systems that prevent bugs, not just the tests that find them: automation frameworks in Playwright, Cypress and TypeScript, CI/CD quality gates, and AI-native tooling — LLM agents on Claude and AWS Bedrock that generate test cases, decide which tests a change actually needs, and run agentic exploratory testing. Cypress core contributor and Cy.Pronauts ambassador.",
   resumeLink:
     'https://drive.google.com/file/d/1sJcAnby6m8qCLBCWGjGAsxIYzVszhgHC/view?usp=sharing',
 };
@@ -33,64 +33,85 @@ export const socialLinks = {
 export const skillsSection = {
   title: 'What I do?',
   subTitle:
-    "I do a little bit of everything, but I'm very good at helping to deliver quality software by working on quality assurance and test automation processes and developing intelligent systems using artificial intelligence, statistics and automation.",
+    'I own web test automation end to end — framework architecture, coverage across the full testing pyramid, and the CI/CD pipelines that run it — and I use AI to make quality engineering faster across an entire codebase.',
   skills: [
     emoji(
-      '⚡ Develop highly quality software with test automations and quality process'
+      '⚡ Own web automation frameworks in Playwright, Cypress and TypeScript, covering the full testing pyramid: unit, component, service, integration and end-to-end'
     ),
     emoji(
-      '⚡ Develop special Artificial Intelligence models for your problem, with python, scikit-learn and Tensorflow'
+      '⚡ Build AI-native quality tooling — LLM agents on Claude and AWS Bedrock for test case generation, AI-driven test selection, agentic exploratory testing and automated failure triage'
+    ),
+    emoji(
+      '⚡ Integrate automated testing into CI/CD on Jenkins, GitHub Actions and GitLab CI, using parallelisation and selective execution to keep feedback fast as coverage grows'
+    ),
+    emoji(
+      '⚡ Certify Open Finance and Open Insurance implementations against FAPI, OIDC and mTLS with the OpenID Foundation Conformance Suite'
+    ),
+    emoji(
+      '⚡ Build intelligent systems with Python, scikit-learn, TensorFlow and PyTorch'
     ),
   ],
 
   softwareSkills: [
     {
+      skillName: 'Playwright',
+      fontAwesomeClassname: 'logos:playwright',
+    },
+    {
       skillName: 'Cypress',
       fontAwesomeClassname: 'logos:cypress',
     },
     {
-      skillName: 'python',
-      fontAwesomeClassname: 'logos:python',
-    },
-    {
-      skillName: 'numpy',
-      fontAwesomeClassname: 'logos:numpy',
-    },
-    {
-      skillName: 'tensorflow',
-      fontAwesomeClassname: 'logos:tensorflow',
+      skillName: 'TypeScript',
+      fontAwesomeClassname: 'logos:typescript-icon',
     },
     {
       skillName: 'JavaScript',
       fontAwesomeClassname: 'logos:javascript',
     },
     {
-      skillName: 'Kotlin',
-      fontAwesomeClassname: 'vscode-icons:file-type-kotlin',
+      skillName: 'python',
+      fontAwesomeClassname: 'logos:python',
+    },
+    {
+      skillName: 'jenkins',
+      fontAwesomeClassname: 'logos:jenkins',
+    },
+    {
+      skillName: 'aws',
+      fontAwesomeClassname: 'logos:aws',
+    },
+    {
+      skillName: 'terraform',
+      fontAwesomeClassname: 'logos:terraform-icon',
+    },
+    {
+      skillName: 'docker',
+      fontAwesomeClassname: 'logos:docker-icon',
+    },
+    {
+      skillName: 'jest',
+      fontAwesomeClassname: 'logos:jest',
     },
     {
       skillName: 'reactjs',
       fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
     },
     {
-      skillName: 'flask',
-      fontAwesomeClassname: 'logos:flask',
-    },
-    {
-      skillName: 'spring',
-      fontAwesomeClassname: 'logos:spring',
-    },
-    {
-      skillName: 'kafka',
-      fontAwesomeClassname: 'logos:kafka',
-    },
-    {
       skillName: 'java',
       fontAwesomeClassname: 'logos:java',
     },
     {
-      skillName: 'sql-database',
-      fontAwesomeClassname: 'vscode-icons:file-type-sql',
+      skillName: 'Kotlin',
+      fontAwesomeClassname: 'vscode-icons:file-type-kotlin',
+    },
+    {
+      skillName: 'tensorflow',
+      fontAwesomeClassname: 'logos:tensorflow',
+    },
+    {
+      skillName: 'grafana',
+      fontAwesomeClassname: 'logos:grafana',
     },
     {
       skillName: 'sentry',
@@ -99,6 +120,10 @@ export const skillsSection = {
     {
       skillName: 'kibana',
       fontAwesomeClassname: 'logos:kibana',
+    },
+    {
+      skillName: 'sql-database',
+      fontAwesomeClassname: 'vscode-icons:file-type-sql',
     },
     {
       skillName: 'firebase',
@@ -114,11 +139,22 @@ export const skillsSection = {
 export const SkillBars = [
   {
     Stack:
-      'Cypress, Robot Framework, Appium, PACT, React Testing Library, JEST, Supertest, Javascript, Python, AWS, Drone, Jenkins, Github Actions, Metabase, Postgresql, MySQL UNIX, LINUX, Kibana, Sentry, Grafana, Sauce Labs, Browserstack, Firebase, SQL', //Insert stack or technology you have experience in
-    proficiency: 'I feel comfortable working with', //Insert relative proficiency in percentage
+      'Playwright, Cypress, TypeScript, JavaScript, Python, Vitest, Jest, React Testing Library, Cypress Component Testing, PACT, Supertest, Postman, Appium, Robot Framework, k6, Locust, Percy, Xray, qase.io, Jenkins, GitHub Actions, GitLab CI, Terraform, AWS, Docker, Grafana, Sentry, Kibana, Metabase, PostgreSQL, MySQL, Firebase, SQL, Git, Linux',
+    proficiency: 'I feel comfortable working with',
   },
   {
-    Stack: 'Java, Selenium, Pytorch, Spring, React, Flask, Kotlin',
+    Stack:
+      'Claude and Claude Code, AWS Bedrock, LLM agents for test generation and test selection, agentic exploratory testing, prompt engineering, RAG, MCP servers (Jira, GitHub, Jenkins, Playwright)',
+    proficiency: 'AI I use to accelerate quality engineering',
+  },
+  {
+    Stack:
+      'FAPI, OIDC, OAuth 2.0, mTLS, PKI, JWKS, OpenID Foundation Conformance Suite, Open Finance Brasil, Open Insurance, OpenAPI and Swagger conformance validation',
+    proficiency: 'Standards and domain I work in',
+  },
+  {
+    Stack:
+      'Java, Kotlin, Selenium, PyTorch, TensorFlow, scikit-learn, Spring, React, Flask, Kafka, Android (MVP and MVVM, Dagger, Rx)',
     proficiency: 'I also have experience with',
   },
 ];
@@ -136,6 +172,14 @@ export const educationInfo = [
     github: 'https://github.com/CaiqueCoelho/tcc',
     link: 'https://drive.google.com/file/d/1qTlSYjZRYW8h3-lc3S26bQy1TDgYS_TH/view?usp=sharing',
     type: 'Article',
+  },
+  {
+    schoolName: 'Test Automation University (Applitools)',
+    subHeader: '7,975 credits - Phoenix Rank',
+    duration: 'Ongoing',
+    desc: 'Continuous training across web, mobile and API test automation, frameworks and quality engineering practices',
+    link: 'https://testautomationu.applitools.com/me.html#Caique-Coelho',
+    type: 'Certified',
   },
   {
     schoolName: 'Duke University',
@@ -166,52 +210,60 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: 'QA Specialist',
+    role: 'Senior QA Automation Engineer',
     company: 'Raidiam',
     companylogo: raidiam,
-    date: 'Oct 2023 – current job',
-    desc: 'Acting as a mentor for junior and senior QAs and tefining development, testing, and deployment processes',
+    date: 'Nov 2023 – Present',
+    desc: "I own the web test automation strategy, frameworks and tooling for Raidiam's Open Finance certification products, across multiple client-facing codebases and environments.",
     descBullets: [
-      'Improving e2e pipeline with cypress-grep and xray, migrating to typescript, creating new automated workflows with Github Actions',
-      'Implementation of visual regression testing with Percy',
-      'Implementation of unit tests with RTL, Vitest, Jest, and Component tests with Cypress',
+      'Lead web automation in Playwright and Cypress with TypeScript: framework architecture, patterns, custom commands and the conventions other engineers build on',
+      'Rebalanced an E2E-heavy suite across the full testing pyramid — unit and component coverage with Vitest, Jest, React Testing Library and Cypress Component Testing; service, integration and contract coverage at the API layer',
+      'Migrated the E2E suite to TypeScript and re-architected it around cypress-grep for selective execution and Xray for traceability from requirement to run',
+      'Added Percy visual regression across the shared design system, catching UI defects functional assertions miss',
+      'Integrated automated testing into CI/CD on GitHub Actions and Jenkins, using parallelisation and selective execution to keep feedback fast as test coverage grew',
+      'Built a library of LLM agents on Claude, Claude Code and AWS Bedrock that generate test plans and cases from tickets, PRs and OpenAPI specs; select which tests a change actually needs; run agentic exploratory testing; and triage failures into product bugs vs. test gaps',
+      'Wired AI into engineering workflows via MCP servers (Jira, GitHub, Jenkins, Playwright), removing manual context-gathering from release validation',
+      'Built the multi-environment onboarding process for new client environments with Terraform, AWS SSM and parameterised Jenkins jobs',
+      'Debug pre-release and production failures, drive testability in design reviews, and mentor junior and senior QAs across squads',
     ],
   },
   {
     role: 'SDET Lead',
     company: 'Inventa',
     companylogo: inventa,
-    date: 'April 2022 – current job',
-    desc: 'Lead a team of 6 SDETs and provide mentorship for their professional development. Develop and implement automated testing strategies and frameworks using Cypress for web application.',
+    date: 'April 2022 – October 2023',
+    desc: 'Led a team of 6 SDETs and provided mentorship for their professional development. Designed and implemented the automated testing strategy and Cypress framework for web applications.',
     descBullets: [
-      'Develop and implement automated testing strategies and tools',
-      'Perform defect triage and prioritization',
-      'Monitor application performance using tools such as Granafa, Sentry and K6 to identify and resolve performance bottlenecks.',
+      'Designed and implemented automated testing strategies, frameworks and tools',
+      'Managed test case design and execution with qase.io integrated with Cypress, tying automated runs to release quality gates',
+      'Performed defect triage and prioritization with developers, product managers and business analysts',
+      'Monitored application performance with Grafana and Sentry, and ran load testing with k6 and Locust to find and mitigate bottlenecks ahead of peak traffic',
     ],
   },
   {
-    role: 'Quality Software Engineer',
+    role: 'Senior Software QA Engineer',
     company: 'Zé Delivery',
     companylogo: zedelivery,
     date: 'November 2021 – April 2022',
-    desc: 'Identifying processes and improvement points in the quality pipeline from requirements gathering to the implementation of regression tests, ensuring process maturity and reliability',
+    desc: "Quality engineering for Brazil's largest beverage delivery platform (AB InBev), maturing the quality pipeline from requirements gathering to regression testing.",
     descBullets: [
-      'Ensure the good distribution of tests among the test pyramid',
-      'Reduce the number of flaky tests and increase the reliability of end-to-end tests',
-      'Ensuring good practices in the development of new tests',
+      'Reduced flaky tests by ~60% and cut total CI pipeline time by ~50% by stabilising end-to-end tests and redistributing coverage across the test pyramid',
+      'Coached engineers on when to apply each test type, preventing over-investment in slow end-to-end coverage',
+      'Implemented contract tests with PACT, API tests with Postman, Joi and Supertest, and performance tests with k6',
+      'Led cross-company quality initiatives and mentored junior QAs',
     ],
   },
   {
-    role: 'Quality Software',
+    role: 'Senior Software QA Engineer',
     company: 'QuintoAndar',
     companylogo: quintoandar,
     date: 'November 2018 – November 2021',
-    desc: 'Playing the role of QA Tribe Manager empowering and educating all people in the tribe to raise quality in code and process:',
+    desc: "Three years of hypergrowth at Latin America's largest real-estate rental platform, acting as QA Tribe Manager and raising quality in code and process across the tribe.",
     descBullets: [
-      'Perform tests to guarantee our apps meets high UI, usability standards, and accessibility',
-      'Automation of end to end and component tests with Cypress',
-      'Defining and monitoring quality metrics of services in production, ensuring performance, safety, and scalability',
-      'Acting in leading cross-company projects and mentoring other junior QAs',
+      'Built and scaled end-to-end and component test automation with Cypress across web products, and enabled other QAs and developers to write their own tests',
+      'Defined and monitored quality metrics for production services — performance, safety and scalability — with Grafana, Sentry, Kibana and Metabase',
+      'Ran exploratory testing and guaranteed apps met high UI, usability and accessibility standards',
+      'Led cross-company projects and mentored junior QAs',
     ],
   },
   {
@@ -220,50 +272,57 @@ export const experience = [
     companylogo: jera,
     date: 'Jan 2018 – Oct 2018',
     descBullets: [
-      'Build native Android apps',
-      'Refactor and maintain Android apps in production',
-      'Building and Maintaining Applications in Java and Kotlin',
-      'Building Applications on MVP and MVVM Architectures',
-      'Build Modular Applications with Dagger and Rx',
+      'Built, refactored and maintained native Android apps in production',
+      'Building and maintaining applications in Java and Kotlin',
+      'Building applications on MVP and MVVM architectures',
+      'Building modular applications with Dagger and Rx',
     ],
   },
   {
-    role: 'Quality Software',
+    role: 'QA Analyst',
     company: 'Jera',
     companylogo: jera,
     date: 'Jun 2017 – Dec 2017',
     descBullets: [
-      'Identify the target test items to be evaluated by the test effort',
-      'Assists in the creation and development of user stories',
-      'Assist in prioritizing backlog tasks',
-      'Define the appropriate tests required and any associated test data',
-      'Collect and manage test data',
-      'Evaluate the result of each test cycle',
-      'Conduct automated interface tests',
+      'Conducted automated interface tests with Selenium and Ruby',
+      'Identified the target test items to be evaluated by the test effort',
+      'Defined the appropriate tests required and any associated test data',
+      'Assisted in the creation of user stories and in prioritizing backlog tasks',
+      'Evaluated the result of each test cycle',
     ],
   },
 ];
 
 export const projects = [
   {
+    name: 'Cypress — core contributor',
+    desc: 'Merged contribution to the Cypress core repository (cypress-io/cypress #28256): fix for inverted tag handling and grep untagged. Cy.Pronauts — Cypress.io ambassador.',
+    github: 'https://github.com/cypress-io/cypress/pull/28256',
+  },
+  {
+    name: 'DISC Board',
+    desc: 'Leading platform for DISC Behavioral Profile mapping for companies, using AI for team management, recruitment, and leadership development. Founder — designed and built the full stack (UI, backend, data model) and took it to production.',
+    link: 'https://discboard.com.br/',
+  },
+  {
+    name: 'LinguaLearn',
+    desc: 'Language learning platform utilizing LLMs to generate dynamic text and audio podcasts entirely through AI.',
+    link: 'https://lingualearn.web.app/dashboard',
+  },
+  {
     name: 'App Teste Eneagrama',
-    desc: 'Android app for personality test with over 100,000 downloads',
+    desc: 'Android app and PWA for personality testing, with over 400,000 downloads on Google Play',
     link: 'https://play.google.com/store/apps/details?id=caiquecoelho.com.testeeneagrama&hl=pt_BR',
   },
   {
     name: 'Retrospectiva Twitter',
-    desc: 'PWA for a retrospective of tweets in 2020 and soon in 2021 with more than 200 thousand users',
+    desc: 'PWA generating a yearly retrospective of tweets, used by more than 500,000 people',
     link: 'https://retrospective-twitter.firebaseapp.com/',
   },
   {
     name: 'My Song',
     desc: 'Music recommendation based on your style using AI and the Spotify API',
     link: 'https://my-song-discovery.firebaseapp.com/home',
-  },
-  {
-    name: 'Meu Time BBB',
-    desc: 'Fantasy game, in which people choose their teams with BBB participants, with more than 2,000 players last season',
-    link: 'https://meu-time-bbb.firebaseapp.com/',
   },
   {
     name: 'Predicting Oscar Results',
@@ -278,18 +337,42 @@ export const projects = [
     link: 'https://caiquecoelho.medium.com/prevendo-o-crescimento-de-casos-de-covid-19-coronavirus-no-brasil-com-an%C3%A1lise-de-dados-gr%C3%A1ficos-33ee525b62f8',
   },
   {
-    name: 'Horóscopo Diário',
-    desc: 'Alexa skill to know information about your horoscope every day with more than 1,000 unique users',
-    link: 'https://www.amazon.com.br/Caique-Coelho-Hor%C3%B3scopo-Di%C3%A1rio/dp/B07ZZN43V3',
+    name: 'huskyCI — open source contributor',
+    desc: 'Contribution to Globo.com huskyCI (globocom/huskyCI #578): tools version check.',
+    github: 'https://github.com/globocom/huskyCI/pull/578',
   },
   {
     name: 'Notícias de Hoje',
-    desc: 'Alexa Skill with recent news about everything that happens in Brazil with more than 15 thousand unique users',
+    desc: 'Alexa Skill with recent news about everything that happens in Brazil, with more than 15,000 unique users',
     link: 'https://www.amazon.com.br/Caique-Coelho-Not%C3%ADcias-de-Hoje/dp/B085GJV4M7/',
+  },
+  {
+    name: 'Horóscopo Diário',
+    desc: 'Alexa skill to know information about your horoscope every day',
+    link: 'https://www.amazon.com.br/dp/B07ZZN43V3',
+  },
+  {
+    name: 'Meu Time BBB',
+    desc: 'Fantasy game, in which people choose their teams with BBB participants, with more than 2,000 players last season',
+    link: 'https://meu-time-bbb.firebaseapp.com/',
+  },
+  {
+    name: 'Murmo',
+    desc: 'Anonymous messaging platform designed for engaging and private communication experiences.',
+    link: 'https://murmochat.web.app/auth',
   },
 ];
 
 export const awards = [
+  {
+    name: 'Cy.Pronauts — Cypress.io Ambassador',
+    award:
+      'Selected for the Cypress.io ambassador program, and contributor to the Cypress core repository',
+  },
+  {
+    name: 'Test Automation University (Applitools)',
+    award: '7,975 credits — Phoenix Rank',
+  },
   {
     name: 'Facebook Testathon 2019 - São Paulo, Brazil',
     award: 'Best product insight!',

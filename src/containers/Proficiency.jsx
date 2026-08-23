@@ -1,5 +1,6 @@
+"use client";
 import React from 'react';
-import back from "../assets/lottie/back";
+// Removed DisplayLottie
 
 import { SkillBars } from "../portfolio";
 import {
@@ -9,14 +10,14 @@ import {
     Col
 } from "reactstrap";
 
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 
-import GreetingLottie from "../components/DisplayLottie";
+// Removed GreetingLottie
 
 const Proficiency = () => {
     return ( 
         <Container>
-           <Fade bottom duration={1000} distance="40px">
+           <Fade direction="up" duration={1000} distance="40px">
             <Row>
                     <Col lg="6">
                         <h1 className="h1">Proficiency</h1>
@@ -34,7 +35,12 @@ const Proficiency = () => {
                         }
                     </Col>
                     <Col lg="6">
-                        <GreetingLottie animationData={back}/>
+                        <div className="coding-scene-wrapper">
+                            <span style={{ fontSize: '10rem' }} role="img" aria-label="proficiency">🎧</span>
+                            <span className="floating-emoji" style={{ top: '20%', right: '15%', animationDelay: '0s', fontSize: '3rem' }}>🎵</span>
+                            <span className="floating-emoji" style={{ top: '50%', left: '15%', animationDelay: '2.5s', fontSize: '2rem' }}>⌨️</span>
+                            <span className="floating-emoji" style={{ top: '15%', left: '30%', animationDelay: '1.5s', fontSize: '2rem' }}>💻</span>
+                        </div>
                     </Col>
                 </Row>
            </Fade>
