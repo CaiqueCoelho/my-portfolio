@@ -1,9 +1,8 @@
 "use client";
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 // import { Link } from "react-router-dom";
 
 import { greetings, socialLinks } from "../portfolio";
-import Headroom from "headroom.js";
 import {
   UncontrolledCollapse,
   NavbarBrand,
@@ -24,21 +23,34 @@ const Navigation = () => {
     
     const onExited = () => setCollapseClasses("");
 
-    useEffect(() => {
-      let headroom = new Headroom(document.getElementById("navbar-main"));
-      // initialise
-      headroom.init();
-    })
+    const [scrolled, setScrolled] = useState(false);
+    const [stripHeight, setStripHeight] = useState(0);
+    const stripRef = useRef(null);
 
-    return ( 
+    useEffect(() => {
+      const onScroll = () => setScrolled(window.scrollY > 10);
+      onScroll();
+      window.addEventListener("scroll", onScroll, { passive: true });
+      return () => window.removeEventListener("scroll", onScroll);
+    }, []);
+
+    useEffect(() => {
+      const strip = stripRef.current;
+      const observer = new ResizeObserver(() => setStripHeight(strip.offsetHeight));
+      observer.observe(strip);
+      return () => observer.disconnect();
+    }, []);
+
+    return (
         <>
+        <div style={{ height: stripHeight }} aria-hidden="true" />
+        <div className={`site-header${scrolled ? " site-header--scrolled" : ""}`}>
         <div
+          ref={stripRef}
           className="text-white py-1 px-3 text-center small d-flex flex-wrap justify-content-center align-items-center"
           style={{
             fontSize: "0.82rem",
             letterSpacing: "0.2px",
-            zIndex: 1050,
-            position: "relative",
             background: "#172b4d",
             borderBottom: "1px solid rgba(255, 255, 255, 0.15)",
           }}
@@ -70,7 +82,7 @@ const Navigation = () => {
 
         <header className="header-global">
           <Navbar
-            className="navbar-main navbar-transparent navbar-light headroom"
+            className="navbar-main navbar-transparent navbar-light"
             expand="lg"
             id="navbar-main"
           >
@@ -194,6 +206,7 @@ const Navigation = () => {
             </Container>
           </Navbar>
         </header>
+      </div>
       </>
      );
 }

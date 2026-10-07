@@ -50,10 +50,10 @@ const GithubProfileCard = ({prof}) => {
                       </div>
 
                       <div className="my-2 d-flex flex-wrap align-items-center">
-                        <span className="badge badge-light text-dark mr-2 mb-2 p-2">
-                          <i className="fa fa-map-marker text-danger mr-1" /> {prof.location || "São Paulo, Brazil"} • Relocating to UK / NL / ES
+                        <span className="badge badge-pill mr-2 mb-2 px-3 py-2" style={{ background: "#ffffff", color: "#172b4d", whiteSpace: "normal", maxWidth: "100%", lineHeight: 1.5, textAlign: "left" }}>
+                          <i className="fa fa-map-marker mr-1" style={{ color: "#f5365c" }} /> {prof.location || "São Paulo, Brazil"} • Relocating to UK / NL / ES
                         </span>
-                        <span className="badge badge-light text-success mr-2 mb-2 p-2">
+                        <span className="badge badge-pill mr-2 mb-2 px-3 py-2" style={{ background: "#ffffff", color: "#0f7a45" }}>
                           <i className="fa fa-check-circle mr-1" /> Available for Interviews
                         </span>
                       </div>

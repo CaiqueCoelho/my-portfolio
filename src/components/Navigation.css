@@ -7,3 +7,47 @@
     font-family: Augestina;
     text-transform: capitalize;
 }
+
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.site-header .navbar-transparent {
+    position: relative;
+}
+
+.site-header--scrolled {
+    background-color: #172b4d;
+    box-shadow: 0 2px 12px rgba(23, 43, 77, 0.35);
+}
+
+.site-header--scrolled .navbar-main {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+@media (max-width: 575.98px) {
+    .site-header #nav-title {
+        font-size: 1.35rem;
+    }
+
+    .site-header .navbar-brand {
+        margin-right: 0.5rem;
+    }
+
+    .site-header .navbar-toggler {
+        padding-left: 0.25rem;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 359.98px) {
+    .site-header #nav-title {
+        font-size: 1.15rem;
+    }
+}

@@ -41,7 +41,7 @@ const Greetings = () => {
                 <div className="col px-0">
                   <Row>
                     <Col lg="6">
-                      <div className="badge badge-pill badge-primary mb-3 px-3 py-2 text-uppercase font-weight-bold shadow-sm" style={{ letterSpacing: "0.5px", background: "rgba(255,255,255,0.2)", border: "1px solid rgba(255,255,255,0.35)", fontSize: "0.78rem" }}>
+                      <div className="badge badge-pill badge-primary mb-3 px-3 py-2 text-uppercase font-weight-bold shadow-sm" style={{ letterSpacing: "0.5px", background: "rgba(255,255,255,0.2)", border: "1px solid rgba(255,255,255,0.35)", fontSize: "0.78rem", whiteSpace: "normal", maxWidth: "100%", lineHeight: 1.5, textAlign: "left" }}>
                         🌍 Open to Relocation • UK | Amsterdam | Spain
                       </div>
                       <h1 className="display-3 text-white">
