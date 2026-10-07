@@ -1,53 +1,52 @@
-name: Deploy Next.js site to Pages
+name: Redirect GitHub Pages to Firebase
 
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
+
+env:
+  TARGET: https://caique-coelho.web.app
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
-          
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        with:
-          # Automatically inject basePath in your Next.js configuration file and disable
-          # server side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
-          # You may remove this line if you want to manage the configuration yourself.
-          static_site_generator: next
-          
-      - name: Install dependencies
-        run: npm ci || npm install
-        
-      - name: Build with Next.js
-        run: npm run build
-        
+      - name: Build redirect pages
+        run: |
+          mkdir -p redirect
+          cat > redirect/index.html <<EOF
+          <!doctype html>
+          <html lang="en">
+          <head>
+          <meta charset="utf-8">
+          <title>Caíque Coelho — Senior SDET</title>
+          <link rel="canonical" href="${TARGET}/">
+          <meta name="robots" content="noindex, follow">
+          <meta http-equiv="refresh" content="0; url=${TARGET}/">
+          <script>
+            var path = location.pathname.replace(/^\/my-portfolio\/?/, "");
+            location.replace("${TARGET}/" + path + location.search + location.hash);
+          </script>
+          </head>
+          <body><a href="${TARGET}/">caique-coelho.web.app</a></body>
+          </html>
+          EOF
+          cp redirect/index.html redirect/404.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build
+          path: ./redirect
 
   deploy:
     environment:

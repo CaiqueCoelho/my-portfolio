@@ -1,0 +1,110 @@
+# Caíque Coelho — Full Profile
+
+## 1. Summary
+- Name: Caíque Coelho (also written Caique Coelho)
+- Current title: Senior QA Automation Engineer (SDET) at Raidiam
+- Experience: 9+ years in software engineering, 8+ in test automation and quality architecture.
+- Location: São Paulo, Brazil. Relocating to the UK, the Netherlands or Spain; needs visa sponsorship.
+- Headline result: built LLM agents for QA that cut release validation from ~2 hours to ~10 minutes.
+- Contact:
+  - Email: caiquedpfc@gmail.com
+  - LinkedIn: https://www.linkedin.com/in/caiquecoelho
+  - GitHub: https://github.com/CaiqueCoelho
+  - Portfolio: https://caique-coelho.web.app
+  - Resume (PDF): https://caique-coelho.web.app/Caique-Coelho-Senior-SDET-Resume.pdf
+
+## 2. What he is looking for
+- Job titles: Senior SDET, Staff SDET, Software Engineer in Test, QA Automation Engineer, Quality Engineer, Test Automation Lead.
+- Locations:
+  - United Kingdom — London. Needs Skilled Worker visa sponsorship.
+  - Netherlands — Amsterdam. Needs Highly Skilled Migrant sponsorship.
+  - Spain — Madrid or Barcelona. Needs a sponsored work visa.
+  - Remote — UK/EU time zones.
+- Employment type: full-time.
+- Languages: Portuguese (native), English (professional working proficiency), Spanish (intermediate).
+
+## 3. Skills
+
+### Test automation
+- Playwright, Cypress (E2E and Component Testing), Selenium, Appium, Robot Framework.
+- Unit and component: Vitest, Jest, React Testing Library, Testing Library for Vue, MSW.
+- API and contract: PACT, Postman, Supertest, Joi, REST / OpenAPI validation.
+- Visual, performance and accessibility: Percy, k6, Locust, BrowserStack, Sauce Labs, axe.
+- Test management and traceability: Xray, qase.io, cypress-grep.
+
+### AI-native quality engineering
+- LLM agents and multi-agent workflows on Claude, Claude Code and AWS Bedrock.
+- MCP servers connecting agents to Jira/Confluence, GitHub, Jenkins and Playwright.
+- What the agents do: generate test plans and test cases from Jira tickets, pull requests and OpenAPI specs; read the diff to pick the tests a change needs; validate conformance logs against specifications; audit releases; split product bugs from test gaps; draft Jira tickets with evidence.
+
+### CI/CD and cloud
+- GitHub Actions, Jenkins (parameterised jobs), GitLab CI, Drone.
+- Docker, Terraform, AWS (SSM, KMS, S3).
+- Parallel and selective test execution to keep feedback fast.
+
+### Security and standards
+- OAuth 2.0, OpenID Connect (OIDC), FAPI, mTLS, PKI, JWKS.
+- OpenID Foundation Conformance Suite; Open Finance Brasil, Open Insurance, Open Banking.
+
+### Programming languages and stacks
+- TypeScript, JavaScript, Python, Java, Kotlin, Ruby.
+- Vue, React, Node, Spring, Flask, Android (MVP / MVVM, Dagger, RxJava).
+- Observability and data: Grafana, Sentry, Kibana, Metabase, SQL (MySQL, PostgreSQL), Firebase.
+
+## 4. Experience
+
+### Raidiam — Senior QA Automation Engineer (SDET)
+Nov 2023 – Present · Remote from São Paulo · UK-headquartered trust infrastructure for Open Banking and Open Finance
+- Owns test automation strategy, frameworks and tooling for Open Finance and Open Insurance certification products, validating FAPI, OIDC and mTLS flows against the OpenID Foundation Conformance Suite and OpenAPI specs.
+- Built a library of Claude Code agents wired in through MCP servers that cut release validation from ~2 hours to ~10 minutes.
+- Leads web automation in Playwright and Cypress with TypeScript; migrated the E2E suite to TypeScript and rebuilt it around cypress-grep and Xray on GitHub Actions.
+- Rebalanced an E2E-heavy suite into a test pyramid with Vitest, Jest, React Testing Library, Cypress Component Testing and Percy visual regression.
+- Built a repeatable onboarding process for new client environments (Terraform, AWS SSM, parameterised Jenkins jobs) and automated API and certificate contract checks (PKI, JWKS, token endpoints).
+- Mentors QAs across squads.
+
+### Inventa — SDET Lead
+Apr 2022 – Oct 2023 · São Paulo · B2B wholesale marketplace
+- Led a team of 6 SDETs: mentoring, development plans and technical direction.
+- Designed the test automation strategy and built the Cypress framework, with smoke and regression suites gating releases through qase.io.
+- Ran performance testing with k6 and Locust; monitored production with Grafana and Sentry.
+- Owned defect triage with engineering, product and business analysts.
+
+### Zé Delivery (AB InBev) — Senior Software QA Engineer
+Nov 2021 – Apr 2022 · São Paulo · Brazil's largest beverage delivery platform
+- Cut flaky tests by ~60% and CI pipeline time by ~50% by stabilising E2E tests and moving coverage down the test pyramid.
+- Introduced contract testing with PACT, API tests with Postman, Joi and Supertest, and performance tests with k6.
+- Coached engineers on when to use each type of test; mentored junior QAs.
+
+### QuintoAndar — Senior Software QA Engineer
+Nov 2018 – Nov 2021 · São Paulo · Latin America's largest real-estate rental platform
+- Built and scaled E2E and component automation with Cypress through 3 years of hypergrowth, and enabled developers to write their own tests.
+- Defined and monitored production quality metrics with Grafana, Sentry, Kibana and Metabase.
+- Owned risk-based test planning, exploratory testing and bug tracking end to end.
+
+### Jera — Android Developer / QA Analyst
+Jun 2017 – Oct 2018 · Campo Grande, Brazil
+- Android Developer (Jan – Oct 2018): native Android apps in Java and Kotlin (MVP / MVVM, Dagger, RxJava).
+- QA Analyst (Jun – Dec 2017): test automation with Selenium and Ruby; acceptance criteria with customers.
+
+### NTI UFMS — Software Engineering Intern
+Nov 2016 – Jun 2017 · Campo Grande, Brazil
+
+## 5. Open source, products and community
+- Cypress (cypress-io/cypress) — merged PR #28256: fix for inverted tag and grep untagged.
+- huskyCI (globocom/huskyCI) — PR #578: tools version check.
+- Cy.Pronauts — Cypress.io ambassador program.
+- DISC Board — founder; full-stack platform for DISC behavioural profiles (Nov 2024 – Present).
+- Enneagram Test — Android app and PWA, 400,000+ downloads.
+- Retrospective Twitter — PWA, 500,000+ users.
+
+## 6. Education and certifications
+- B.Sc. in Computer Science — Universidade Federal de Mato Grosso do Sul (UFMS), 2013 – 2018. Thesis: AI model to estimate development effort for new software features.
+- Test Automation University (Applitools) — 7,975 credits, Phoenix rank.
+- Introduction to Machine Learning — Duke University (2021).
+- Artificial Intelligence — Huawei (2021).
+- AI training course — Instituto Federal de Alagoas (2021).
+- Scrum Foundation Professional Certificate (SFPC) — CertiProf.
+
+## 7. Awards
+- Facebook Testathon 2019, São Paulo — best product insight.
+- Amazon Alexa Skill Builder — 2x incentive certificate winner.

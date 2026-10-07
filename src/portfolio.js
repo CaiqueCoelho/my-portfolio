@@ -8,20 +8,26 @@ import raidiam from './assets/img/icons/common/raidiam.svg';
 
 export const greetings = {
   name: 'Caique Coelho',
-  title: "Hi all, I'm Caíque",
+  title: "Caíque Coelho, Senior SDET",
   description:
-    "Staff-level SDET with 9+ years building test automation and quality platforms. I build the systems that prevent bugs, not just the tests that find them: automation frameworks in Playwright, Cypress and TypeScript, CI/CD quality gates, and AI-native tooling using LLM agents on Claude and AWS Bedrock that generate test cases, decide which tests a change actually needs, and run agentic exploratory testing. Cypress core contributor and Cy.Pronauts ambassador.",
+    "Senior SDET with 9+ years in software engineering. I build test automation frameworks in Playwright and Cypress (TypeScript), the CI/CD that runs them, and LLM agents on Claude and AWS Bedrock that speed up QA: at Raidiam they cut release validation from ~2 hours to ~10 minutes. Contributor to the Cypress core repository and Cy.Pronauts ambassador. Relocating to London, Amsterdam, Madrid or Barcelona (visa sponsorship needed), or remote in UK/EU time zones.",
   resumeLink:
-    'https://drive.google.com/file/d/1sJcAnby6m8qCLBCWGjGAsxIYzVszhgHC/view?usp=sharing',
+    'https://caique-coelho.web.app/Caique-Coelho-Senior-SDET-Resume.pdf',
 };
 
 export const openSource = {
   githubUserName: 'CaiqueCoelho',
 };
 
-export const contact = {};
+export const contact = {
+  email: 'caiquedpfc@gmail.com',
+  linkedin: 'https://linkedin.com/in/caiquecoelho',
+  relocation: 'United Kingdom (London), Netherlands (Amsterdam), Spain (Madrid/Barcelona). Requires visa sponsorship.',
+  targetRoles: 'Senior / Staff SDET, Software Engineer in Test, QA Automation Engineer, Quality Engineer, Test Automation Lead',
+};
 
 export const socialLinks = {
+  email: 'mailto:caiquedpfc@gmail.com',
   linkedin: 'https://linkedin.com/in/caiquecoelho',
   github: 'https://github.com/CaiqueCoelho',
   twitter: 'https://twitter.com/caiqueocoelho',
@@ -46,6 +52,9 @@ export const skillsSection = {
     ),
     emoji(
       '⚡ Certify Open Finance and Open Insurance implementations against FAPI, OIDC and mTLS with the OpenID Foundation Conformance Suite'
+    ),
+    emoji(
+      '⚡ Lead and mentor SDETs: led a team of 6 at Inventa and coach engineers on testing across squads'
     ),
     emoji(
       '⚡ Build intelligent systems with Python, scikit-learn, TensorFlow and PyTorch'
@@ -210,12 +219,13 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: 'Senior QA Automation Engineer',
+    role: 'Senior QA Automation Engineer (SDET)',
     company: 'Raidiam',
     companylogo: raidiam,
     date: 'Nov 2023 – Present',
-    desc: "I own the web test automation strategy, frameworks and tooling for Raidiam's Open Finance certification products, across multiple client-facing codebases and environments.",
+    desc: "Raidiam (UK-headquartered) builds the trust infrastructure behind Open Banking and Open Finance ecosystems. I own the web test automation strategy, frameworks and tooling for its certification products (FAPI, OIDC, mTLS), across multiple client-facing codebases and environments.",
     descBullets: [
+      'Cut release validation from ~2 hours to ~10 minutes with LLM agents wired into Jira, GitHub, Jenkins and Playwright through MCP servers',
       'Lead web automation in Playwright and Cypress with TypeScript: framework architecture, patterns, custom commands and the conventions other engineers build on',
       'Rebalanced an E2E-heavy suite across the full testing pyramid — unit and component coverage with Vitest, Jest, React Testing Library and Cypress Component Testing; service, integration and contract coverage at the API layer',
       'Migrated the E2E suite to TypeScript and re-architected it around cypress-grep for selective execution and Xray for traceability from requirement to run',
@@ -258,12 +268,11 @@ export const experience = [
     company: 'QuintoAndar',
     companylogo: quintoandar,
     date: 'November 2018 – November 2021',
-    desc: "Three years of hypergrowth at Latin America's largest real-estate rental platform, acting as QA Tribe Manager and raising quality in code and process across the tribe.",
+    desc: "Three years of hypergrowth at Latin America's largest real-estate rental platform (unicorn).",
     descBullets: [
-      'Built and scaled end-to-end and component test automation with Cypress across web products, and enabled other QAs and developers to write their own tests',
-      'Defined and monitored quality metrics for production services — performance, safety and scalability — with Grafana, Sentry, Kibana and Metabase',
-      'Ran exploratory testing and guaranteed apps met high UI, usability and accessibility standards',
-      'Led cross-company projects and mentored junior QAs',
+      'Built and scaled E2E and component automation with Cypress through 3 years of hypergrowth, and enabled developers to write their own tests, scaling automation beyond the QA team',
+      'Defined and monitored production quality metrics (performance, reliability, scalability) with Grafana, Sentry, Kibana and Metabase',
+      'Owned risk-based test planning, exploratory testing and bug tracking end to end, keeping a high bar on UI, usability and accessibility',
     ],
   },
   {
@@ -295,7 +304,7 @@ export const experience = [
 
 export const projects = [
   {
-    name: 'Cypress — core contributor',
+    name: 'Cypress — open-source contributor',
     desc: 'Merged contribution to the Cypress core repository (cypress-io/cypress #28256): fix for inverted tag handling and grep untagged. Cy.Pronauts — Cypress.io ambassador.',
     github: 'https://github.com/cypress-io/cypress/pull/28256',
   },

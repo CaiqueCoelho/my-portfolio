@@ -1,12 +1,12 @@
 {
   "name": "developer-portfolio",
   "version": "1.0.0",
-  "description": "Nice to meet you! I'm Caíque, Passionate about code, a SDET lead at INVENTA, also an App Developer on weekends, and a Data Scientist on free time",
+  "description": "Portfolio of Caíque Coelho, Senior SDET: test automation in Playwright and Cypress (TypeScript), CI/CD and LLM agents for QA. Relocating to London, Amsterdam or Spain.",
   "main": "index.js",
   "repository": "https://github.com/CaiqueCoelho/my-portfolio",
   "author": "Caíque Coelho",
   "license": "MIT",
-  "homepage": "https://caiquecoelho.github.io/my-portfolio",
+  "homepage": "https://caique-coelho.web.app",
   "private": false,
   "dependencies": {
     "@apollo/client": "^3.3.21",
@@ -35,7 +35,7 @@
     "build": "next build",
     "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out && firebase deploy"
+    "deploy": "firebase deploy --only hosting"
   },
   "browserslist": {
     "production": [

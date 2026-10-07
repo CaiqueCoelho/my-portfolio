@@ -1,11 +1,11 @@
 # Caíque Coelho — Portfolio
 
-### 🌐 **[caiquecoelho.github.io/my-portfolio](https://caiquecoelho.github.io/my-portfolio/)**
+### 🌐 **[caique-coelho.web.app](https://caique-coelho.web.app/)**
 
-> **SDET with 9+ years in test automation and quality platforms.** I build AI-native quality
-> tooling — LLM agents for test generation, test selection and agentic exploratory testing —
-> on top of Playwright, Cypress and TypeScript.
-> Cypress core contributor · [Cy.Pronauts](https://www.cypress.io/) ambassador.
+> **Senior SDET with 9+ years in software engineering.** I build test automation frameworks in
+> Playwright and Cypress (TypeScript), the CI/CD that runs them, and LLM agents for QA that cut
+> release validation from ~2 hours to ~10 minutes. Relocating to London, Amsterdam or Spain.
+> Cypress open-source contributor · [Cy.Pronauts](https://www.cypress.io/) ambassador.
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
@@ -19,15 +19,15 @@
 
 | | |
 |---|---|
-| 🌐 **Website** | [caiquecoelho.github.io/my-portfolio](https://caiquecoelho.github.io/my-portfolio/) |
-| 📄 **Resume** | [Download PDF](https://drive.google.com/file/d/1IBRSOQzzDqXBAYCDNPf2lDpwcuRaYlOp/view?usp=sharing) |
+| 🌐 **Website** | [caique-coelho.web.app](https://caique-coelho.web.app/) |
+| 📄 **Resume** | [Download PDF](https://caique-coelho.web.app/Caique-Coelho-Senior-SDET-Resume.pdf) |
 | 💼 **LinkedIn** | [@caiquecoelho](https://linkedin.com/in/caiquecoelho) |
 | 🐙 **GitHub** | [@CaiqueCoelho](https://github.com/CaiqueCoelho) |
 | ✍️ **Medium** | [@caiquecoelho](https://caiquecoelho.medium.com/) |
 | 🐦 **Twitter** | [@caiqueocoelho](https://twitter.com/caiqueocoelho) |
 | 📸 **Instagram** | [@caiqueocoelho](https://www.instagram.com/caiqueocoelho/) |
 
-<img src="./my-portfolio-qr-code.png" width="160px" alt="QR code to caiquecoelho.github.io/my-portfolio">
+<img src="./my-portfolio-qr-code.png" width="160px" alt="QR code to the portfolio (caiquecoelho.github.io/my-portfolio, redirects to caique-coelho.web.app)">
 
 ---
 

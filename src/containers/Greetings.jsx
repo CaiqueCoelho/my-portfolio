@@ -41,14 +41,40 @@ const Greetings = () => {
                 <div className="col px-0">
                   <Row>
                     <Col lg="6">
+                      <div className="badge badge-pill badge-primary mb-3 px-3 py-2 text-uppercase font-weight-bold shadow-sm" style={{ letterSpacing: "0.5px", background: "rgba(255,255,255,0.2)", border: "1px solid rgba(255,255,255,0.35)", fontSize: "0.78rem" }}>
+                        🌍 Open to Relocation • UK | Amsterdam | Spain
+                      </div>
                       <h1 className="display-3 text-white">
                         {greetings.title + " "}
                       </h1>
                       <p className="lead text-white">{greetings.description}</p>
+                      
+                      {/* Direct Clickable Contact Badges */}
+                      <div className="d-flex flex-wrap align-items-center mb-3">
+                        <a
+                          href="https://linkedin.com/in/caiquecoelho"
+                          target="_blank"
+                          rel="noopener noreferrer me"
+                          className="badge badge-lg badge-white text-primary font-weight-bold mr-2 mb-2 p-2 shadow-sm"
+                          style={{ fontSize: "0.85rem" }}
+                          aria-label="LinkedIn Profile"
+                        >
+                          <i className="fa fa-linkedin mr-1 text-primary"></i> linkedin.com/in/caiquecoelho
+                        </a>
+                        <a
+                          href="mailto:caiquedpfc@gmail.com"
+                          className="badge badge-lg badge-white text-primary font-weight-bold mb-2 p-2 shadow-sm"
+                          style={{ fontSize: "0.85rem" }}
+                          aria-label="Email Caíque"
+                        >
+                          <i className="fa fa-envelope mr-1 text-danger"></i> caiquedpfc@gmail.com
+                        </a>
+                      </div>
+
                       <SocialLinks />
                       <div className="btn-wrapper my-4">
                         <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
+                          className="btn-white btn-icon mb-3 mb-sm-0"
                           color="default"
                           target="_blank"
                           href={greetings.resumeLink}
@@ -58,6 +84,32 @@ const Greetings = () => {
                           </span>
                           <span className="btn-inner--text">
                             See My Resume
+                          </span>
+                        </Button>
+                        <Button
+                          className="btn-outline-white btn-icon mb-3 mb-sm-0 ml-sm-2"
+                          color="default"
+                          target="_blank"
+                          rel="noopener noreferrer me"
+                          href="https://linkedin.com/in/caiquecoelho"
+                        >
+                          <span className="btn-inner--icon mr-1">
+                            <i className="fa fa-linkedin" />
+                          </span>
+                          <span className="btn-inner--text">
+                            LinkedIn
+                          </span>
+                        </Button>
+                        <Button
+                          className="btn-outline-white btn-icon mb-3 mb-sm-0 ml-sm-2"
+                          color="default"
+                          href="mailto:caiquedpfc@gmail.com"
+                        >
+                          <span className="btn-inner--icon mr-1">
+                            <i className="fa fa-envelope" />
+                          </span>
+                          <span className="btn-inner--text">
+                            Email Me
                           </span>
                         </Button>
                       </div>

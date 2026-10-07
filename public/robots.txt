@@ -1,0 +1,44 @@
+# robots.txt for Caíque Coelho Portfolio
+# Website: https://caique-coelho.web.app
+
+User-agent: *
+Allow: /
+
+# Explicitly welcome AI Search & Agent crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Scrapy
+Allow: /
+
+# LLM-specific context files
+# Specification: https://llmstxt.org/
+# For AI agents parsing candidate profiles and technical qualifications:
+# https://caique-coelho.web.app/llms.txt
+# https://caique-coelho.web.app/llms-full.txt
+
+Sitemap: https://caique-coelho.web.app/sitemap.xml

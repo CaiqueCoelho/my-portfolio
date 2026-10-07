@@ -24,16 +24,40 @@ const GithubProfileCard = ({prof}) => {
                         Reach Out to me!
                       </h2>
                       <p className="lead text-white mt-3">
-                        If you have a cool project that involves quality software, software testing or artificial intelligence, let's talk!
+                        Looking for a <strong>Staff or Senior SDET</strong>, <strong>Quality Platform Lead</strong>, or <strong>AI-Native Quality Architect</strong>? I am actively open to relocation to the <strong>United Kingdom (London)</strong>, <strong>Netherlands (Amsterdam)</strong>, and <strong>Spain (Madrid/Barcelona)</strong>, or high-impact remote roles.
                       </p>
-                      <p className="text-white mt-3">
-                          {prof.bio}
+                      <p className="text-white mt-2">
+                        {prof.bio || "Passionate SDET building AI-native quality platforms, Playwright and Cypress architectures."}
                       </p>
-                      <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
-                        <i className="ni ni-pin-3 text-info mr-2" />
-                        {prof.location}
-                        </div>
-                        <SocialLinks />
+
+                      <div className="d-flex flex-wrap align-items-center my-3">
+                        <a
+                          href="https://linkedin.com/in/caiquecoelho"
+                          target="_blank"
+                          rel="noopener noreferrer me"
+                          className="btn btn-sm btn-white text-primary font-weight-bold mr-2 mb-2 shadow-sm"
+                          aria-label="LinkedIn Profile"
+                        >
+                          <i className="fa fa-linkedin mr-1" /> linkedin.com/in/caiquecoelho
+                        </a>
+                        <a
+                          href="mailto:caiquedpfc@gmail.com"
+                          className="btn btn-sm btn-white text-primary font-weight-bold mr-2 mb-2 shadow-sm"
+                          aria-label="Email Caíque"
+                        >
+                          <i className="fa fa-envelope mr-1 text-danger" /> caiquedpfc@gmail.com
+                        </a>
+                      </div>
+
+                      <div className="my-2 d-flex flex-wrap align-items-center">
+                        <span className="badge badge-light text-dark mr-2 mb-2 p-2">
+                          <i className="fa fa-map-marker text-danger mr-1" /> {prof.location || "São Paulo, Brazil"} • Relocating to UK / NL / ES
+                        </span>
+                        <span className="badge badge-light text-success mr-2 mb-2 p-2">
+                          <i className="fa fa-check-circle mr-1" /> Available for Interviews
+                        </span>
+                      </div>
+                      <SocialLinks />
                     </Col>                    
                   </Row>
                 </div>

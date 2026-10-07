@@ -1,0 +1,40 @@
+# Caíque Coelho — Senior SDET (Playwright, Cypress, AI-native QA)
+
+> Senior Software Development Engineer in Test (SDET) with 9+ years in software engineering and 8+ in test automation and quality architecture. Builds test automation frameworks in Playwright and Cypress (TypeScript), the CI/CD that runs them, and LLM agents for QA that cut release validation from ~2 hours to ~10 minutes. Contributor to the Cypress core repository and Cy.Pronauts (Cypress.io ambassador). Based in São Paulo, Brazil; relocating to the UK, the Netherlands or Spain with visa sponsorship.
+
+## Contact
+- LinkedIn: https://www.linkedin.com/in/caiquecoelho
+- Email: caiquedpfc@gmail.com
+- GitHub: https://github.com/CaiqueCoelho
+- Portfolio: https://caique-coelho.web.app
+- Resume (PDF): https://caique-coelho.web.app/Caique-Coelho-Senior-SDET-Resume.pdf
+
+## What he is looking for
+- Roles: Senior / Staff SDET, Software Engineer in Test, QA Automation Engineer, Quality Engineer, Test Automation Lead.
+- Locations: London (UK), Amsterdam (Netherlands), Madrid or Barcelona (Spain). Also remote in UK/EU time zones.
+- Work authorization: Brazilian citizen, needs visa sponsorship for the UK, the Netherlands and Spain.
+- Languages: Portuguese (native), English (professional working proficiency), Spanish (intermediate).
+
+## Skills
+- Test automation: Playwright, Cypress (E2E and Component), Selenium, Appium, Robot Framework, Vitest, Jest, React Testing Library, Supertest, MSW.
+- API, contract, performance and visual: PACT, Postman, REST / OpenAPI validation, k6, Locust, Percy, BrowserStack, accessibility (axe).
+- CI/CD and cloud: GitHub Actions, Jenkins, GitLab CI, Drone, Docker, Terraform, AWS (SSM, KMS, S3).
+- AI-native QA: Claude, Claude Code, AWS Bedrock, LLM agents and multi-agent workflows, MCP servers (Jira, GitHub, Jenkins, Playwright).
+- Security and standards: OAuth 2.0, OpenID Connect, FAPI, mTLS, PKI / JWKS, OpenID Foundation Conformance Suite, Open Banking / Open Finance.
+- Languages: TypeScript, JavaScript, Python, Java, Kotlin, Ruby.
+
+## Experience
+- Raidiam (UK-headquartered Open Banking / Open Finance infrastructure) — Senior QA Automation Engineer (SDET), Nov 2023 – Present, remote.
+  - Built LLM agents (Claude Code, MCP) that generate test plans, validate conformance logs and triage failures: release validation from ~2 hours to ~10 minutes.
+  - Leads web automation in Playwright and Cypress with TypeScript; added unit, component and Percy visual layers to an E2E-heavy suite.
+- Inventa (B2B wholesale marketplace) — SDET Lead, Apr 2022 – Oct 2023. Led a team of 6 SDETs; built the Cypress framework and release quality gates; k6 and Locust performance testing.
+- Zé Delivery (AB InBev) — Senior Software QA Engineer, Nov 2021 – Apr 2022. Cut flaky tests by ~60% and CI time by ~50%; introduced PACT contract testing.
+- QuintoAndar (Latin America's largest real-estate rental platform) — Senior Software QA Engineer, Nov 2018 – Nov 2021. Scaled Cypress E2E and component automation through hypergrowth.
+- Jera — Android Developer (Jan – Oct 2018) and QA Analyst (Jun – Dec 2017).
+
+## Education
+- B.Sc. in Computer Science — Universidade Federal de Mato Grosso do Sul (UFMS), 2013 – 2018.
+- Test Automation University (Applitools) — 7,975 credits, Phoenix rank.
+
+## More detail
+- Full profile: https://caique-coelho.web.app/llms-full.txt

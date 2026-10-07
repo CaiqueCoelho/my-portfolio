@@ -13,6 +13,9 @@ const SocialLinks = () => {
         color="twitter"
         href={socialLinks.linkedin}
         target="_blank"
+        rel="noopener noreferrer me"
+        aria-label="LinkedIn Profile"
+        title="LinkedIn Profile"
       >
         <span className="btn-inner--icon">
           <i className="fa fa-linkedin" />
@@ -20,9 +23,23 @@ const SocialLinks = () => {
       </Button>
       <Button
         className="btn-icon-only rounded-circle ml-1"
+        color="danger"
+        href={socialLinks.email || "mailto:caiquedpfc@gmail.com"}
+        aria-label="Email Caíque (caiquedpfc@gmail.com)"
+        title="Email Caíque (caiquedpfc@gmail.com)"
+      >
+        <span className="btn-inner--icon">
+          <i className="fa fa-envelope" />
+        </span>
+      </Button>
+      <Button
+        className="btn-icon-only rounded-circle ml-1"
         color="medium"
         href={socialLinks.medium}
         target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Medium Blog"
+        title="Medium Blog"
       >
         <span className="btn-inner--icon">
           <i className="fa fa-medium" />
@@ -33,6 +50,9 @@ const SocialLinks = () => {
         color="github"
         href={socialLinks.github}
         target="_blank"
+        rel="noopener noreferrer"
+        aria-label="GitHub Profile"
+        title="GitHub Profile"
       >
         <span className="btn-inner--icon">
           <i className="fa fa-github" />
